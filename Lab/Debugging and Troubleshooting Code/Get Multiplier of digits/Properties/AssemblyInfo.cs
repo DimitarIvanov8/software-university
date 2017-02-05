@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Debugging and Troubleshooting Code")]
+[assembly: AssemblyTitle("Get Multiplier of digits")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Debugging and Troubleshooting Code")]
+[assembly: AssemblyProduct("Get Multiplier of digits")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("03904695-8f20-4533-830c-44443f54d0fb")]
+[assembly: Guid("09133c95-590c-431a-95cd-755392eb6aa1")]
 
 // Version information for an assembly consists of the following four values:
 //

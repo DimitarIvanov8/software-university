@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Debugging_and_Troubleshooting_Code
+namespace Get_Multiplier_of_digits
 {
-    class Debugging
+    class MultiplierOfDigits
     {
-        static void Main()
+        static void Main(string[] args)
         {
             int num = int.Parse(Console.ReadLine());
             var result = GetMultipleOfDigits(num);
             Console.WriteLine(result);
-            
         }
 
         static int GetMultipleOfDigits(int num)
