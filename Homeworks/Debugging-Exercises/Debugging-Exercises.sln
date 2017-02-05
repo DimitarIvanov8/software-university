@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Tricky-Strings", "1.Tricky-Strings\1.Tricky-Strings.csproj", "{5FB8E49F-E542-48B1-B613-EE9122C2B5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Triangle-Formations", "2.Triangle-Formations\2.Triangle-Formations.csproj", "{3DAA1E3B-C941-4861-B3F0-2315655293E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Tetris", "3.Tetris\3.Tetris.csproj", "{568E0F92-FD03-4D60-BB8A-DD60977AA72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Mining Coins", "4.Mining Coins\4.Mining Coins.csproj", "{4B485A01-CDF1-4FC0-A4C0-50DF8310E147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FB8E49F-E542-48B1-B613-EE9122C2B5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB8E49F-E542-48B1-B613-EE9122C2B5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB8E49F-E542-48B1-B613-EE9122C2B5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB8E49F-E542-48B1-B613-EE9122C2B5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DAA1E3B-C941-4861-B3F0-2315655293E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAA1E3B-C941-4861-B3F0-2315655293E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAA1E3B-C941-4861-B3F0-2315655293E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAA1E3B-C941-4861-B3F0-2315655293E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568E0F92-FD03-4D60-BB8A-DD60977AA72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568E0F92-FD03-4D60-BB8A-DD60977AA72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568E0F92-FD03-4D60-BB8A-DD60977AA72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568E0F92-FD03-4D60-BB8A-DD60977AA72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B485A01-CDF1-4FC0-A4C0-50DF8310E147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B485A01-CDF1-4FC0-A4C0-50DF8310E147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B485A01-CDF1-4FC0-A4C0-50DF8310E147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B485A01-CDF1-4FC0-A4C0-50DF8310E147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
