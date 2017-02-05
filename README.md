@@ -1,2 +1,2 @@
 # software-university
-Different projects and homeworks.
+Exercises and homeworks.
