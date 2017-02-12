@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Last 3 Consecutive Equal Strings", "01. Last 3 Consecutive Equal Strings\01. Last 3 Consecutive Equal Strings.csproj", "{81249290-65F1-4EEB-9C89-EECEDCFB1037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Array Elements Equal to Their Index", "02. Array Elements Equal to Their Index\02. Array Elements Equal to Their Index.csproj", "{3DC37B17-DDCF-4EA2-A064-23F9BF8354AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Phonebook", "03. Phonebook\03. Phonebook.csproj", "{91F8572A-95F4-451C-BAFA-4BE3262402AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Phone", "04. Phone\04. Phone.csproj", "{19255780-A1E7-4A0B-BB37-7183B334A813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Char Rotation", "05. Char Rotation\05. Char Rotation.csproj", "{33157A9B-3AF8-4400-A8B5-5A72DAC02DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. (hard) Power Plants", "06. (hard) Power Plants\06. (hard) Power Plants.csproj", "{F906443F-69A1-4C3B-82F3-ADA9D9FABD0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. (harder) Resizable Array", "07. (harder) Resizable Array\07. (harder) Resizable Array.csproj", "{4C7D68F2-BF8B-4161-A17B-F3B49F5AE93D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81249290-65F1-4EEB-9C89-EECEDCFB1037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81249290-65F1-4EEB-9C89-EECEDCFB1037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81249290-65F1-4EEB-9C89-EECEDCFB1037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81249290-65F1-4EEB-9C89-EECEDCFB1037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC37B17-DDCF-4EA2-A064-23F9BF8354AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC37B17-DDCF-4EA2-A064-23F9BF8354AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC37B17-DDCF-4EA2-A064-23F9BF8354AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC37B17-DDCF-4EA2-A064-23F9BF8354AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F8572A-95F4-451C-BAFA-4BE3262402AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F8572A-95F4-451C-BAFA-4BE3262402AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F8572A-95F4-451C-BAFA-4BE3262402AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F8572A-95F4-451C-BAFA-4BE3262402AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19255780-A1E7-4A0B-BB37-7183B334A813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19255780-A1E7-4A0B-BB37-7183B334A813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19255780-A1E7-4A0B-BB37-7183B334A813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19255780-A1E7-4A0B-BB37-7183B334A813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33157A9B-3AF8-4400-A8B5-5A72DAC02DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33157A9B-3AF8-4400-A8B5-5A72DAC02DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33157A9B-3AF8-4400-A8B5-5A72DAC02DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33157A9B-3AF8-4400-A8B5-5A72DAC02DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F906443F-69A1-4C3B-82F3-ADA9D9FABD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F906443F-69A1-4C3B-82F3-ADA9D9FABD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F906443F-69A1-4C3B-82F3-ADA9D9FABD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F906443F-69A1-4C3B-82F3-ADA9D9FABD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7D68F2-BF8B-4161-A17B-F3B49F5AE93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7D68F2-BF8B-4161-A17B-F3B49F5AE93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7D68F2-BF8B-4161-A17B-F3B49F5AE93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7D68F2-BF8B-4161-A17B-F3B49F5AE93D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
