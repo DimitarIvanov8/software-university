@@ -1,0 +1,88 @@
+Lists
+
+		List<int> numbers = new List<int>();
+		List<string> texts = new List<string>();
+
+		var numers = new List<int>();
+		
+		numbers.Add(1);
+		numbers.Add(2);
+		
+		numbers[1] = 1000; 
+		
+		var words = new List<strings>
+		{
+			"Pesho", "Vankata", "Gosho"
+		};
+		
+		foreach(var name in words)
+		{
+			Console.WriteLine(name);
+		}
+		
+		var countOfName = words.Count;
+		
+		.Add("lala");
+		
+		numbers.Remove("Pesho"); //removes the first found item not all\
+		
+		.RemoveAll // remove all occurrences
+		
+		words.RemoveAt(0); //remove specific index
+		
+		words.Insert(1, "shakala"); insert item in a specific index
+		
+		All indexes are placed to the left or right depenging if we remove or insert items.
+		
+		Removes and Insert are slow operations.
+		
+		bool exists = numers.Contains(5);
+		
+		numbers.sort(); //sorts in ascending order
+		
+		.Reverse(); //sort in descending order
+		
+		var numbers = Console.ReadLine(0
+			.Split(' ')
+			.Select(int.Parse)
+			.ToList();
+		
+		
+		List<int> numbers = Console.ReadLine()  
+			.Split(' ')
+			.Select(int.Parse)
+			.ToList();
+
+			
+		var numbers = new List<int>(1000); //1000 elements initial storage. After the 1000 element, the List will double its size
+		
+		
+		var square = Math.Sqrt(number);
+		If (square == (int)square)
+		//win
+		
+		string.Join(" ", result);
+		
+		var finalString = string.Join(" ", resultString.ToCharArray().Where(Char.IsDigit));
+            Console.WriteLine(finalString);
+			
+			
+			
+		string kor = "mangusta";
+		
+		string currentText = Console.ReadLine();
+		
+		if(!currentText.Contains(kor))
+		
+		Environment.NewLine
+		
+		
+		.Split(",./-_".ToCharArray())
+		
+		for bla bla i++
+		RemoveAt(4);
+		i--;
+		
+		firstList.Count();
+		
+		
