@@ -1,0 +1,6 @@
+Array and List Algorithms
+
+.Contains(number)  //for List and Arrays
+
+var result = numbers.Take(10); //first 10 elements of a list or array
+
