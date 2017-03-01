@@ -1,0 +1,51 @@
+Dictionaries
+
+Associative Arrays
+
+{key -> value}
+Ivan -> 0888...
+
+var phonebook = new Dictionary<string, string>();
+phonebook["Ivan"] = "0884073223"; //dobavq ili updateva ako go ima veche
+
+var ivanPhone = phonebook["Ivan"];
+
+phonebook.Count
+
+var keys = phonebook.Keys; //collection of keys
+var values = phonebook.Values; //collection of keys
+foreach (key in keys)
+foreach (value in values)
+
+foreach (var kvp in phonebook) 
+kvp = key value pair
+
+var key = kvp.Key;
+var value = kvp.Value;
+
+key
+phoneBook[key]
+
+.Add("Pesheto", "+232454") //dobavq no trqbva da e unikalno
+
+.Remove("Gosho");
+
+.Clear(); //removes all
+
+bools
+.ContainsKey("Ivan");
+
+.ContainesValue("323233");
+
+string result;
+result = phonebook.TryGetValue("Ivan", out result); // result = 23134
+or var result = phonebook.TryGetValue("Ivan", out result); // result = 23134
+
+
+
+string text = "1234s";
+int number;
+bool parsed = int.TryParse(text, out number); //true or false plus parse value or 0
+
+
+
