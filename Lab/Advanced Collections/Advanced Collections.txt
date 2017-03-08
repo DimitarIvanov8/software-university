@@ -1,0 +1,40 @@
+Advanced Collections
+
+Dictionary<string, List<int>> grades = new Dictionary<string, List<int>>();
+grades["Gosho"] = new List<int>();
+grades["Gosho"].Add(5);
+
+grades["Kiro"] = new List<int>() { 6,6,3,5};
+
+public static void AddGrades(Dictionary<string, List<int>> grades, string name, int grade)
+        {
+            if (!grades.ContainsKey(name))
+            {
+                grades[name] = new List<int>();
+            }
+            grades[name].Add(grade);
+        }
+		
+AddGrades(grades, "Pesho", 3);
+Console.WriteLine(String.Join(" ", grades["Pesho"]));
+
+
+foreach (var name in grades.Keys)
+            {
+                Console.Write(name + " - ");
+                foreach (var grade in grades[name])
+                {
+                    Console.Write(grade + " ");
+                }
+                Console.WriteLine();
+            }
+			
+			
+foreach (var nameAndGrade in grades)
+            {
+                Console.WriteLine("{0} -> {1}", 
+                    nameAndGrade.Key,String.Join(" ", nameAndGrade.Value));
+            }
+			
+			
+
