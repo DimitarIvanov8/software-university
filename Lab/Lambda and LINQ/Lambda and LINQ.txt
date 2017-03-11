@@ -1,0 +1,63 @@
+Labda and LINQ
+
+.ToList/ToArray creates new collection (not just a reference)
+//the original collection is not changed
+
+.OrderBy //sorts them numbers
+.ThenBy(x => x) //p, num, whatevs is short and make sense
+.ThenByDescending
+
+.Take(3) //take first 3 elements
+.Skip(4) //skip first 4 elements
+
+var maxThreeNumbers = numberss
+	.OrderBy(x => x)
+	.Take(3)
+	.ToList();
+	
+11:05
+
+x => x != 0
+
+.Where //filters
+
+.Where(n => n % 2 == 0) 
+.ToList();
+
+.Count(n => n > 10) //kolko otgovarqt na tova uslovie
+
+*******
+var hasNumbers = numbers
+	.Where(n => n < 3)
+	.Any(); //is there at least 1
+	
+if(hasNumbers == true)
+cw("yes")
+
+.All(n => n > 5) //vsichki otgovarqt na uslovieto
+
+var times2 = numbers
+.Select(n => n * 2)   //promenq vsqko chislo 1 po 1
+.ToList();
+
+---------
+.Distinct();  //returns collection of unique values
+
+//numbers e list ot int
+var unique = number.Distinct().ToList();
+
+new[] {' ',}
+
+
+.First();  //first element  good for HashSet
+.Last();   //last element
+.Single(); //vrusha ako e edinstven element
+.FirstOrDefault(n => n > 1000); //if it does not find the element it returns default value of the number
+.LastOrDefault();
+
+.First(n => n % 2 == 0);
+.Last(n => n % 2 == 0);
+
+nums.Concat(nums2); //lepi 2 kolekcii
+
+ 
