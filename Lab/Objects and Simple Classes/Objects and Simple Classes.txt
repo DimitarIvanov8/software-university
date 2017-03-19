@@ -1,0 +1,34 @@
+Objects and Simple Classes
+
+class - template for objects
+objects - have values/properties
+
+datetime c# format
+
+{0:dd.mm}
+
+var someDate = DateTime.ParseExact(dateAsString, "dd-MM-yyyy",
+CultureInfo.InvariantCulture);
+
+var random = new Random()
+random.Next(0,101); //0 - 100 including
+//allways use 1 .random
+
+new Webclient
+Process.Start
+
+
+var firstCat = new Cat();
+            firstCat.Name = "Lora";
+            firstCat.Age = 10;
+
+            var secondCat = new Cat
+            {
+                Name = "lalal",
+                Age = 4
+            };
+			
+			
+static se izvikva varhu samiq class shablon
+Dog.Bark();
+
