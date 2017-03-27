@@ -1,0 +1,37 @@
+Files, Directories and Exceptions
+
+using System.IO;
+
+string file = File.ReadAllText("file.txt");
+
+string[] file = File.ReadAllLines("file.txt"); //vseki element ot masiva e red ot file-a
+
+../input.txt  //vurni se nazad 1 direktoriq ot debug folder i procheti input
+
+**File.WriteAllText("output.txt", "Files are fun");
+
+File.Exists("../../Copied.txt");
+
+FileInfo file = new FileInfo("../../output.txt");
+file.Name();
+file. ....
+
+** Directory.CreateDirectory("Test");
+** File.Create("Test/output.txt");
+** Directory.Move("OuterDirectory/InnerDirectory", "../../output"); //inner directory se trie, no informaciqta ot neq otiva v output directory
+** Directory.GetFiles("Test");
+
+cw(string.Join("\r\n", fileName.Select(x => x.Replace("Test\\", ""))));  //cheating
+
+cw(string.Join("\r\n", fileName.Select(x => x.Split('\\')[x.Split('\\').Length - 1])));
+
+**** string[] fileNames = Directory.GetFiles("Test");
+cw(string.Join("\r\n", 
+	fileNames
+	.Select(x => x.Replace("Test\\", ""))
+	.Select(x => string.Join(".", x.Split('.').Reverse().Skip(1).Reverse()))
+	));  
+
+	
+
+
