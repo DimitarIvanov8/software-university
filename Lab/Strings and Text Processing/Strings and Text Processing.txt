@@ -1,0 +1,27 @@
+Strings and Text Processing
+
+int result = string.Compare(str1, str1, true); //case sensitive: true ignores upper and lower case; false messure them
+ 
+result == 0 if str1 equals str2
+result < 0 if str1 is before str2
+result > 0 if str1 is after str2
+
+"str1" == "str2"
+
+var indexOfsomething = text.IndexOf("something"); //number of index where first occurrence of current text starts
+
+var indexOfsomething = text.IndexOf("something", 6); //start searching of index 6
+
+var indexOfsomething = text.LastIndexOf("something", 6); //tursi ot posleden kum purvi
+//returns -1 if text is not found
+
+*Substring(2);
+*.Replace("Sofia", "Varna")
+*.Remove(4, 5); //from 4 removes 5 elements
+
+Replace("blabla", string.Empty);
+
+
+
+
+
