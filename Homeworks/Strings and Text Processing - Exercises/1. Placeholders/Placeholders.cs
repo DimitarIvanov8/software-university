@@ -21,10 +21,8 @@ namespace _1.Placeholders
 
                 for (int i = 0; i < placeholders.Count(); i++)
                 {
-                    if (sentence.Contains($"{{{i}}}"))
-                    {
-                        sentence = sentence.Replace($"{{{i}}}", $"{placeholders[i]}");
-                    }
+                    var placehold = "{" + i + "}";
+                    sentence = sentence.Replace(placehold, placeholders[i]);
                 }
                 Console.WriteLine(sentence);
 
