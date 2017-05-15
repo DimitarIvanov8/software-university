@@ -1,2 +1,2 @@
 # software-university
-Exercises and homeworks.
+Exercises, homeworks and Exam preparations.
