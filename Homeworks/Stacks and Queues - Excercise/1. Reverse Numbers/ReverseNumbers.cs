@@ -10,6 +10,18 @@ namespace _1.Reverse_Numbers
     {
         static void Main(string[] args)
         {
+            var numbers = Console.ReadLine().Split(new[] { ' '}, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            var stack = new Stack<int>();
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                stack.Push(numbers[i]);
+            }
+
+            while (stack.Count != 0)
+            {
+                Console.Write(stack.Pop() + " ");
+            }
         }
     }
 }
