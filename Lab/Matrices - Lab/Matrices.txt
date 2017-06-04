@@ -1,0 +1,9 @@
+int[,] matrix = new int[5,5];            
+
+int[][] matrix1 = new int[5][]; (more useful)
+foreach (var row in matrix) //samo ako matricata e definirana kato [][]
+{
+	Console.WriteLine(string.Join(" ", row));
+}
+
+  
