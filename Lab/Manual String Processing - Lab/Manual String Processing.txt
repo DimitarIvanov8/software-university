@@ -1,0 +1,49 @@
+Manual String Processing
+
+ReferenceEquals(a,b) - dali kletkite ot pametta kam koito sochat tezi obekti 
+sa edni i sashti ili razlichni (bool)
+
+a.Equals(b); - purvo izpulnqva ReferenceEquals(a,b) i ako to ima stoinost True,
+Equals ne minava po stringovete da gi sravnqva ami vrushta direktno True
+
+int result = a.IndexOf(pattern, StringComparison.Ordinal); //will consider upper or lower case
+int result = a.IndexOf(pattern, StringComparison.OrdinalIgnoreCase); //will ignore upper and lower cases and find the first match
+
+var someText = "Ana"
+
+str.Padleft(int totalWidth, char symbol)
+someText.Padleft(5, ' ');
+//"  Ana"
+
+someText.PadRight(5, ' ');
+//"Ana  ";
+
+str.Format("{0:f3}", number); //double value
+str.Format("{0:X}", number); //HEX value
+//or we can use $"{0:f3}"
+
+int num = 2;
+string value = $"{num:D5}";
+//00002
+
+string value = $"{num:5}";  //or it can be -10 (negative)
+//    2
+
+*** String Builder //we can change elements in SB
+var sb = new StringBuilder();
+...pulnim s danni
+sb[2] = '4';
+
+sb.Append(…) appends a string or another object after the last character in the buffer
+sb.Remove(int startIndex, int length) removes the characters in given range
+sb.Insert(int index, string str) inserts given string (or object) at given position
+sb.Replace(string oldStr, string newStr) replaces all occurrences of a substring
+sb.ToString() converts the StringBuilder to String
+
+sb.Length = 5;  //we can cut the SB size
+
+
+
+
+
+
