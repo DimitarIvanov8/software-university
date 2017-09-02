@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Cubic Artillery", "1. Cubic Artillery\1. Cubic Artillery.csproj", "{44781B2B-B09F-49FC-85DA-EF1E41F16960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Cubic's Rube", "2. Cubic's Rube\2. Cubic's Rube.csproj", "{942625B3-0427-47BE-85F1-F240A5BF8A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Cubic Messages", "3. Cubic Messages\3. Cubic Messages.csproj", "{E35D5A13-F0D7-450F-91F5-1851AB54CEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Cubic Assault", "4. Cubic Assault\4. Cubic Assault.csproj", "{C8427533-A14B-43FC-9A49-1036F93ABE83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2 Knight Game", "2.2 Knight Game\2.2 Knight Game.csproj", "{35E4F07B-F101-4AA5-977A-8873190730E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Hospital", "4. Hospital\4. Hospital.csproj", "{3990A6C9-E575-465F-AFC4-00D949719A08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44781B2B-B09F-49FC-85DA-EF1E41F16960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44781B2B-B09F-49FC-85DA-EF1E41F16960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44781B2B-B09F-49FC-85DA-EF1E41F16960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44781B2B-B09F-49FC-85DA-EF1E41F16960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942625B3-0427-47BE-85F1-F240A5BF8A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942625B3-0427-47BE-85F1-F240A5BF8A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942625B3-0427-47BE-85F1-F240A5BF8A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942625B3-0427-47BE-85F1-F240A5BF8A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35D5A13-F0D7-450F-91F5-1851AB54CEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35D5A13-F0D7-450F-91F5-1851AB54CEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35D5A13-F0D7-450F-91F5-1851AB54CEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35D5A13-F0D7-450F-91F5-1851AB54CEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8427533-A14B-43FC-9A49-1036F93ABE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8427533-A14B-43FC-9A49-1036F93ABE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8427533-A14B-43FC-9A49-1036F93ABE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8427533-A14B-43FC-9A49-1036F93ABE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E4F07B-F101-4AA5-977A-8873190730E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E4F07B-F101-4AA5-977A-8873190730E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E4F07B-F101-4AA5-977A-8873190730E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E4F07B-F101-4AA5-977A-8873190730E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3990A6C9-E575-465F-AFC4-00D949719A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3990A6C9-E575-465F-AFC4-00D949719A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3990A6C9-E575-465F-AFC4-00D949719A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3990A6C9-E575-465F-AFC4-00D949719A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
