@@ -1,0 +1,2 @@
+The course focuses on relational modeling, data modeling with ER charts (tables and relational links) and SQL language handling (data mining, selecting, projecting, joining, aggregating, grouping, modificating, deleting and inserting). 
+This course sets the basics of working with databases, making it easier to use them in real-world applications, and understanding concepts such as database transformation into object-oriented (ORM) modeling.
