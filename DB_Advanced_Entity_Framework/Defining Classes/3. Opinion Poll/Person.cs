@@ -1,29 +1,29 @@
 ﻿public class Person
 {
-    public string name { get; set; }
-    public int age { get; set; }
+    public string Name { get; set; }
+    public int Age { get; set; }
 
     public Person()
     {
-        this.name = "No name";
-        this.age = 1;
+        this.Name = "No name";
+        this.Age = 1;
     }
 
     public Person(int age)
         : this()
     {
-        this.age = age;
+        this.Age = age;
     }
 
     public Person(string name, int age)
     {
-        this.name = name;
-        this.age = age;
+        this.Name = name;
+        this.Age = age;
     }
 
     public override string ToString()
     {
-        return $"{this.name} - {this.age}"; 
+        return $"{this.Name} - {this.Age}"; 
     }
 }
 

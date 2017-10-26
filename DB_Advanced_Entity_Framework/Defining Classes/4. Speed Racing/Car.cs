@@ -1,36 +1,36 @@
 ﻿public class Car
 {
-    public string model { get; set; }
-    public decimal fuelAmount { get; set; }
-    public decimal fuelConsumptionPerKM  { get; set; }
-    public decimal distanceTraveled { get; set; }
+    public string Model { get; set; }
+    public decimal FuelAmount { get; set; }
+    public decimal FuelConsumptionPerKM  { get; set; }
+    public decimal DistanceTraveled { get; set; }
 
     public Car(string model, decimal fuelAmount, decimal fuelConsumption)
     {
-        this.model = model;
-        this.fuelAmount = fuelAmount;
-        this.fuelConsumptionPerKM = fuelConsumption;
-        this.distanceTraveled = 0;
+        this.Model = model;
+        this.FuelAmount = fuelAmount;
+        this.FuelConsumptionPerKM = fuelConsumption;
+        this.DistanceTraveled = 0;
     }
 
     public void DriveIfPossible(string model, decimal distance)
     {
-        var fuelNeeded = distance * fuelConsumptionPerKM;
+        var fuelNeeded = distance * FuelConsumptionPerKM;
 
-        if (fuelAmount < fuelNeeded)
+        if (FuelAmount < fuelNeeded)
         {
             System.Console.WriteLine("Insufficient fuel for the drive");
         }
         else
         {
-            this.fuelAmount -= fuelNeeded;
-            this.distanceTraveled += distance;
+            this.FuelAmount -= fuelNeeded;
+            this.DistanceTraveled += distance;
         }
     }
 
     public override string ToString()
     {
-        return $"{this.model} {this.fuelAmount:f2} {this.distanceTraveled}";
+        return $"{this.Model} {this.FuelAmount:f2} {this.DistanceTraveled}";
     }
 }
 

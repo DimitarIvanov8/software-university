@@ -1,25 +1,25 @@
 ﻿public class Employee
 {
-    public string name { get; set; }
-    public decimal salary { get; set; }
-    public string position { get; set; }
-    public string department { get; set; }
-    public string email { get; set; }
-    public int age { get; set; }
+    public string Name { get; set; }
+    public decimal Salary { get; set; }
+    public string Position { get; set; }
+    public string Department { get; set; }
+    public string Email { get; set; }
+    public int Age { get; set; }
 
     public Employee(string name, decimal salary, string position, string department, string email, int age)
     {
-        this.name = name;
-        this.salary = salary;
-        this.position = position;
-        this.department = department;
-        this.email = email;
-        this.age = age;
+        this.Name = name;
+        this.Salary = salary;
+        this.Position = position;
+        this.Department = department;
+        this.Email = email;
+        this.Age = age;
     }
 
     public override string ToString()
     {
-        return $"{this.name} {this.salary:f2} {this.email} {this.age}";
+        return $"{this.Name} {this.Salary:f2} {this.Email} {this.Age}";
     }
 }
 
