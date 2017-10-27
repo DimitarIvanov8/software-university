@@ -46,7 +46,7 @@ public class StartUp
         string departmentWithHighestAvgSalary = string.Empty;
 
         foreach (var department in employeeList
-            .GroupBy(d => d.department, s => s.salary))
+            .GroupBy(d => d.Department, s => s.Salary))
         {
             var nameOfDepartment = department.Key;
             var avgSalaryPerDep = department.Average();
@@ -60,8 +60,8 @@ public class StartUp
 
         Console.WriteLine($"Highest Average Salary: {departmentWithHighestAvgSalary}");
         foreach (var employee in employeeList
-            .Where(d => d.department == departmentWithHighestAvgSalary)
-            .OrderByDescending(s => s.salary))
+            .Where(d => d.Department == departmentWithHighestAvgSalary)
+            .OrderByDescending(s => s.Salary))
         {
             Console.WriteLine(employee);
         }
