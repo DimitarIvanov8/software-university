@@ -7,7 +7,7 @@ public class StartUp
     {
         var builder = new SqlConnectionStringBuilder()
         {
-            ["Server"] = @"DESKTOP-1SIRA4D\SQLEXPRESS",
+            ["Server"] = @".",
             ["Integrated Security"] = true
         };
         var connection = new SqlConnection(builder.ToString());

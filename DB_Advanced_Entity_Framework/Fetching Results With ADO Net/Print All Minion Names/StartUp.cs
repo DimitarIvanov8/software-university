@@ -8,7 +8,7 @@ namespace Print_All_Minion_Names
     {
         static void Main(string[] args)
         {
-            var connectionString = @"Server=DESKTOP-1SIRA4D\SQLEXPRESS;" +
+            var connectionString = @"Server=.;" +
                 "Database=MinionsDB;Integrated Security=True";
             var connection = new SqlConnection(connectionString);
 
