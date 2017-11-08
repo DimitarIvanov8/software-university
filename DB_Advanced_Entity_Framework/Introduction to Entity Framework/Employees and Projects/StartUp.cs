@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Globalization;
 
-namespace Introduction_to_Entity_Framework
+namespace P02_DatabaseFirst
 {
     class StartUp
     {

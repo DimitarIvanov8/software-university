@@ -3,7 +3,7 @@ using Introduction_to_Entity_Framework.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-namespace Introduction_to_Entity_Framework
+namespace P02_DatabaseFirst
 {
     class StartUp
     {

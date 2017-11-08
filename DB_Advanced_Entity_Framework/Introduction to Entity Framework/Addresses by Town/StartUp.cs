@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Globalization;
 
-namespace Introduction_to_Entity_Framework
+namespace P02_DatabaseFirst
 {
     class StartUp
     {
