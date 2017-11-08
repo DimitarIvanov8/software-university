@@ -1,3 +1,7 @@
+Import the SoftUni database into SQL Management Studio by executing the provided .sql script.
+
+Model the existing database by using Database First.
+
 Employees Full Information
 Now we can use the SoftUniContext to extract data from our database. Your first task is to extract all employees and print their first, last and middle name, their job title and salary, rounded to 2 symbols after the decimal separator, all of those separated with a space. Order them by employee id.
 
